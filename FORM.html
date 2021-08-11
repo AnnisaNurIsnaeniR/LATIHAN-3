@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> <head> 
+        <title>FORM</title></head>
+    <body bgcolor="#CDBBA7" >
+        <form>
+         <table border="0" align="left">
+             <tr>
+              <td> <label for="Nama">Nama</label></td>
+              <td>:</td>
+              <td><input type="text" size="20" name="nama" id="nama"/><br/></td>
+    </tr> 
+        <tr>
+            <td><label for="ttl">Tempat tanggal lahir</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="ttl"/><br/></td>
+    </tr> 
+      <tr> 
+            <td> <label for="add">Alamat</label></td>
+            <td>:</td>
+            <td><textarea type="add" cols="10" rows="1"></textarea><br></td>
+    </tr>
+    <tr>
+        <td><label for="jurusan"> Jurusan</label></td>
+        <td>:</td>
+        <td><select name="jurusan" id="jurusan">
+                <option value="">Klik disini</option><br>
+                <option value="rpl">RPL</option>
+                <option value="tkj">TKJ</option></td>
+            </tr>
+       <tr>
+        <td><label for="kelamin">Jenis Kelamin</label></td>
+        <td>:</td>
+        <td><input type="radio" name="jkl" id="Pria" value="Pria"/>
+        <label for="Pria">Pria</label>
+        <input type="radio" name="jkl" id="Wanita" value="Wanita"/>
+        <label for="Wanita">Wanita</label><br></td>
+    </tr>
+       <tr> 
+        <td><label for="agama">Agama</label></td>
+        <td>:</td>
+        <td><select name="agama" id="agama">
+                <option value="">Klik disini</option>
+                <option value="islam">Islam</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="Konghucu">Konghucu</option></td>
+    </tr>
+        <tr>
+                <td><label for="tlp">No telpon</label></td>
+                <td>:</td>
+                <td><textarea type="tlp" cols="10" rows="1"></textarea></td>
+    </tr>
+      <tr>
+        <td><label for="hobby">Hobby</label></td>
+        <td>:</td>
+        <td><input type="checkbox" name="hobby[]" id="membaca" value="membaca"/>
+        <label for="membaca">Membaca</label>
+        <input type="checkbox" name="hobby[]" id="tidur" value="tidur"/>
+        <label for="tidur">Tidur</label>
+        <input type="checkbox" name="hobby[]" id="main" value="main"/>
+        <label for="main">Main</label>
+        <input type="checkbox" name="hobby[]" id="makan" value="makan"/>
+        <label for="makan">Tidur</label><br></td>
+    </tr>
+</table>
+         </form> </body>
+</html>
